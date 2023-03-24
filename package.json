@@ -1,0 +1,31 @@
+{
+  "name": "vite-svelte-comps",
+  "private": false,
+  "version": "0.0.9",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "svelte",
+    "vite",
+    "dashboard",
+    "webComponent"
+  ],
+  "files": [
+    "dist"
+  ],
+  "module": "./dist/build.es.js",
+  "main": "./dist/build.umd.js",
+  "engines": {
+    "node": ">= 16"
+  },
+  "description": "svelte + vite + webComponent, dashboard card",
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^2.0.2",
+    "svelte": "^3.55.1",
+    "vite": "^4.1.0"
+  }
+}
